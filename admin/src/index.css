@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&display=swap');
+*{
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.product svg.MuiSvgIcon-root {
+  width: 18px;
+  margin-left: 10px;
+}
+button.e-d {
+  border: none;
+  padding: 3px 8px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer;
+}
+.e-d.w{
+  background-color: yellowgreen;
+}
+.e-d.d{
+  background-color: tomato;
+}
+.e-d.w:hover{
+  background-color: rgb(186, 248, 63);
+}
+.e-d.d:hover{
+  background-color: rgb(197, 77, 56);
+}
+h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+}
+.product-info {
+  display:flex;
+  gap: 40px;
+  width: 95%;
+}
+.product-info > div{
+  flex: 1;
+
+
+}
+.product-info img{
+  width: 100%;
+}
+.sizes .MuiFormControl-root.MuiTextField-root{
+  width: 44%;
+}
+.MuiFormControl-fullWidth {
+  width: 100% !important;
+}
+
+
+
+
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+.file-input{
+  text-align: center;
+}
+.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 12px;
+  background-color: #1976d2;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-input__label svg {
+  height: 16px;
+  margin-left: 10px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+
+.product-info .colors {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+#notif {
+  position: fixed;
+  top: 50px;
+  right: -310px;
+  transition: all 1.5s ease;
+  z-index: 9999;
+}
+
+.user-info .user-address .MuiIconButton-root{
+  width: 70px;
+}
+.user-info .MuiBox-root-1 .MuiTextField-root{
+  margin-right: 20px;
+}
+
+.user-info h2{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.user-info h4{
+  margin: 15px 0;
+  color: grey;
+}
+
+.user-address{
+display: flex;
+gap: 20px;
+
+
+}
+.user-info .btn{
+  padding: 5px;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.user-info .btn:hover{
+    background-color: rgb(16, 16, 219);
+}
+.btn{
+  padding: 7px;
+    color: white;
+    background-color: darkblue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.btn:hover{
+    background-color: rgb(16, 16, 219);
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.chart {
+  margin: 20px;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.chartTitle {
+  margin-bottom: 20px;
+}
+.content2{
+  width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 5px 3px 15px -10px rgb(0 0 0 / 75%);
+    box-shadow: 5px 3px 15px -10px rgb(0 0 0 / 75%);
+    background-color: white;
+}
+.content2 form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.container2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(4,121,195,1) 52%, rgba(0,212,255,1) 100%);;
+}
+.content2 h1{
+  text-align: center;
+}
+.cmt.product svg.MuiSvgIcon-root{
+  margin: 0 !important;
+  width: auto;
+}
+
+.cmntSpan{
+  cursor: pointer;
+}
+.cmntSpan:hover{
+  color: darkblue;
+}
